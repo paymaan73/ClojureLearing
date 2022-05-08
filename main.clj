@@ -11,4 +11,10 @@
   (println(* x y))
   )
 
-(sum 12,12)
+(defn sum-without-argument
+  ;; define variable
+  []
+  (def x 12)
+  (def y 12)
+  (println(+ x y))
+  )
