@@ -51,5 +51,13 @@
   (println(* 2 3))
   (println(/ 4 2))
   (println(- 6 2))
-  (println(% 10 2))
   )
+
+
+
+(defn Example []
+   (def x 5)
+   (def y 5.25)
+   (println (type x))
+   (println (type y)))
+(Example)
