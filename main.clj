@@ -61,3 +61,22 @@
    (println (type x))
    (println (type y)))
 (Example)
+
+
+;; This program displays Hello World
+(defn Example []
+   (loop [i 0]
+      (when (< i 5)
+      (println i)
+      (recur (inc i)))))
+(Example)
+
+(defn PrintHelloWorldInLoop []
+    (loop [i 0]
+      (when (< i 10)
+        (println "HelloWorld!")
+        (recur (inc i))
+        )
+      )
+  )
+(PrintHelloWorldInLoop)
