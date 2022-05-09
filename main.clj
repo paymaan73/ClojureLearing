@@ -80,3 +80,9 @@
       )
   )
 (PrintHelloWorldInLoop)
+
+;; This program displays Hello World
+(defn Example []
+   (with-open [rdr (clojure.java.io/reader "Example.txt")]
+   (reduce conj [] (line-seq rdr))))
+(Example)
