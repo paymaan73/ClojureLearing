@@ -46,3 +46,10 @@
    (def _num1 2))
 (Example)
 
+(defn operator[]
+  (println(+ 1 2))
+  (println(* 2 3))
+  (println(/ 4 2))
+  (println(- 6 2))
+  (println(% 10 2))
+  )
